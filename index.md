@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Roll a Ball</title>
+    <link rel="stylesheet" href="Public/style.css">
+    <link rel="shortcut icon" href="Public/favicon.ico" />
+    <script src="Public/UnityProgress.js"></script>
+  </head>
+  <body class="template">
+    <div class="template-wrap clear">
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
+      <br>
+      <div class="logo"></div>
+      <div class="fullscreen"><img src="Public/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
+      <div class="title">Roll a Ball</div>
+    </div>
+    <script type='text/javascript'>
+  var Module = {
+    TOTAL_MEMORY: 268435456,
+    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+    compatibilitycheck: null,
+    backgroundColor: "#222C36",
+    splashStyle: "Light",
+    dataUrl: "Public/Roll A Ball (Halloween).data",
+    codeUrl: "Public/Roll A Ball (Halloween).js",
+    asmUrl: "Public/Roll A Ball (Halloween).asm.js",
+    memUrl: "Public/Roll A Ball (Halloween).mem",
+  };
+</script>
+<script src="Release/UnityLoader.js"></script>
 
-You can use the [editor on GitHub](https://github.com/kandyceasania101/RollABall-Halloween-/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kandyceasania101/RollABall-Halloween-/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+  </body>
+</html>
